@@ -1,0 +1,38 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000;
+    background-color: #f9f9f9;
+}
+
+header, footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.banner {
+    background-color: #d4af37;
+    color: #000;
+    padding: 50px;
+    text-align: center;
+}
+
+.banner button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.banner button:hover {
+    background-color: #d4af37;
+    color: #000;
+}
+

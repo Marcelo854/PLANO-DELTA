@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Delta Medical Group: cuidados médicos humanizados e serviços de saúde de excelência.">
+    <meta name="keywords" content="saúde, consultas médicas, planos de saúde, exames, Delta Medical Group">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Centro de Saúde Avançada - Delta Medical Group</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Centro de Saúde Avançada - Delta Medical Group</h1>
+    </header>
+    <section class="banner">
+        <h2>Cuidando da sua saúde com excelência e proximidade</h2>
+        <button onclick="openModal('consulta')">Agende Sua Consulta</button>
+        <button onclick="openModal('planos')">Conheça Nossos Planos</button>
+    </section>
+    <footer>
+        <p>&copy; 2024 Delta Medical Group. Todos os direitos reservados.</p>
+    </footer>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <p id="modal-text"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

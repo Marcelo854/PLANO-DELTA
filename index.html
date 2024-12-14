@@ -3,31 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Delta Medical Group: cuidados médicos humanizados e serviços de saúde de excelência.">
-    <meta name="keywords" content="saúde, consultas médicas, planos de saúde, exames, Delta Medical Group">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <meta name="description" content="Delta Medical Group: excelência em saúde com atendimento humanizado.">
+    <meta name="keywords" content="saúde, consultas médicas, exames, telemedicina, planos de saúde">
     <title>Centro de Saúde Avançada - Delta Medical Group</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <h1>Centro de Saúde Avançada - Delta Medical Group</h1>
     </header>
+
     <section class="banner">
-        <h2>Cuidando da sua saúde com excelência e proximidade</h2>
-        <button onclick="openModal('consulta')">Agende Sua Consulta</button>
-        <button onclick="openModal('planos')">Conheça Nossos Planos</button>
+        <h1>Cuidando da sua saúde com excelência e proximidade</h1>
+        <div class="banner-buttons">
+            <button onclick="openModal('consulta')">Agende Sua Consulta</button>
+            <button onclick="openModal('planos')">Conheça Nossos Planos</button>
+        </div>
     </section>
+
+    <section class="bem-vindo">
+        <h2>Bem-vindo ao Delta Medical Group</h2>
+        <p>Estamos aqui para cuidar de você e da sua família com todo carinho e excelência. Nossa equipe está pronta para oferecer soluções completas para sua saúde.</p>
+    </section>
+
+    <section class="destaques">
+        <h2>Nossos Serviços</h2>
+        <div class="servicos">
+            <div>
+                <img src="icons/consultas.svg" alt="Ícone de consultas">
+                <h3>Consultas Médicas</h3>
+                <p>Atendimento especializado em diversas áreas.</p>
+            </div>
+            <div>
+                <img src="icons/exames.svg" alt="Ícone de exames">
+                <h3>Exames Laboratoriais</h3>
+                <p>Resultados rápidos e precisos.</p>
+            </div>
+            <div>
+                <img src="icons/cardiograma.svg" alt="Ícone de cardiograma">
+                <h3>Eletrocardiogramas</h3>
+                <p>Equipamentos modernos para seu coração.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="depoimentos">
+        <h2>O que nossos pacientes dizem</h2>
+        <blockquote>"O atendimento foi impecável, me senti acolhido desde o primeiro momento." - Maria S.</blockquote>
+        <blockquote>"Recomendo o Delta Medical Group para quem busca cuidado e humanização." - João P.</blockquote>
+    </section>
+
     <footer>
         <p>&copy; 2024 Delta Medical Group. Todos os direitos reservados.</p>
     </footer>
-    <div id="modal" class="modal">
-        <div class="modal-content">
-            <span class="close" onclick="closeModal()">&times;</span>
-            <p id="modal-text"></p>
-        </div>
-    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
